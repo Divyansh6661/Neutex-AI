@@ -19,7 +19,28 @@ NEUTEX-AI is an intelligent, context-aware personal assistant that automates tas
 - **AI/ML:** TensorFlow, PyTorch, NLP (spaCy, NLTK)  
 - **Other Tools:** GitHub, Docker, VS Code  
 
-## 🚀 Getting Started
+## Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (comes with Node.js)
+
+### Clone the repository
 ```bash
-# Clone the repository
-git clone git clone https://github.com/Divyansh6661Neutex-AI.git
+git clone https://github.com/Divyansh6661/Neutex-AI.git
+cd Neutex-AI
+
+## Frontend (neutex-ai)
+
+cd neutex-ai
+npm install
+npm start
+
+## Backend (neutex-backend)
+
+cd ../neutex-backend
+npm install
+npm run dev
+
+
+
