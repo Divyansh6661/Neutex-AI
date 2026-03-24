@@ -113,7 +113,7 @@ const N8NWorkflowManager = ({ isDarkMode, getThemeClasses }) => {
       return;
     }
 
-    if (confirm('Are you sure you want to delete this workflow?')) {
+    if (window.confirm('Are you sure you want to delete this workflow?')) {
       const updatedWorkflows = workflows.filter(w => w.id !== id);
       setWorkflows(updatedWorkflows);
       saveWorkflows(updatedWorkflows);
